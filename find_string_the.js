@@ -3,6 +3,5 @@ let array = article.split(' ');
 let string=array.filter(findThe =>findThe == "the").reduce((acc,c) =>                          {
     return acc+1;
    }, 0);
-   ;
 console.log(string);
 
